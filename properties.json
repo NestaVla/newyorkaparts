@@ -1,0 +1,482 @@
+[
+  {
+    "id": "studio-midtown-01",
+    "name": "Studio Moderno Midtown",
+    "type": "studio",
+    "zone": "Midtown East",
+    "guests": "1–2",
+    "beds": 0,
+    "baths": 1,
+    "price": 120,
+    "amenities": ["WiFi", "A/C", "Cocina", "TV", "Lavandería"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "Studio completamente equipado en el corazón de Midtown. A 5 minutos del metro, cerca de Times Square y Central Park.",
+    "highlight": "Alta demanda",
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&q=80",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "1br-upper-west-01",
+    "name": "Elegante 1BR Upper West",
+    "type": "1br",
+    "zone": "Upper West Side",
+    "guests": "2–4",
+    "beds": 1,
+    "baths": 1,
+    "price": 175,
+    "amenities": ["WiFi", "A/C", "Cocina completa", "Lavarropas", "Balcón"],
+    "rules": "No fumar · 1 mascota pequeña OK · Check-in 3pm · Check-out 11am",
+    "description": "Hermoso 1 bedroom a pasos de Central Park y el Museum of Natural History. Edificio con portero 24hs.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "2br-chelsea-01",
+    "name": "Loft 2BR Chelsea",
+    "type": "2br",
+    "zone": "Chelsea",
+    "guests": "4–6",
+    "beds": 2,
+    "baths": 2,
+    "price": 290,
+    "amenities": ["WiFi", "A/C", "Gym", "Concierge", "Cocina gourmet", "Lavandería"],
+    "rules": "No fumar · No mascotas · Check-in 4pm · Check-out 10am",
+    "description": "Amplio loft de 2 bedrooms en el vibrante barrio de Chelsea. A metros de la High Line y los mejores restaurantes.",
+    "highlight": "Últimas fechas",
+    "photos": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "studio-hells-kitchen-01",
+    "name": "Studio Céntrico Hell's Kitchen",
+    "type": "studio",
+    "zone": "Hell's Kitchen",
+    "guests": "1–2",
+    "beds": 0,
+    "baths": 1,
+    "price": 110,
+    "amenities": ["WiFi", "A/C", "Cocina", "Metro a 1 cuadra"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "Studio ideal para viajeros solos o parejas. En Hell's Kitchen, a pasos del metro y Broadway.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1630699144867-37acec97df5a?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "1br-financial-01",
+    "name": "Modern 1BR Financial District",
+    "type": "1br",
+    "zone": "Financial District",
+    "guests": "2–4",
+    "beds": 1,
+    "baths": 1,
+    "price": 195,
+    "amenities": ["WiFi", "A/C", "Vistas al río", "Gym", "Concierge"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "Moderno 1 bedroom con vistas al Hudson. En el corazón del Financial District, cerca de Wall Street y el 9/11 Memorial.",
+    "highlight": "Alta demanda",
+    "photos": [
+      "https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?w=800&q=80",
+      "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800&q=80",
+      "https://images.unsplash.com/photo-1521783988139-89397d761dce?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "3br-upper-east-01",
+    "name": "Penthouse 3BR Upper East Side",
+    "type": "3br",
+    "zone": "Upper East Side",
+    "guests": "6+",
+    "beds": 3,
+    "baths": 2,
+    "price": 420,
+    "amenities": ["WiFi", "A/C", "Terraza privada", "Gym", "Doorman 24hs", "2 baños", "Sala grande"],
+    "rules": "No fumar · No mascotas · Check-in 4pm · Check-out 10am",
+    "description": "Espectacular penthouse de 3 bedrooms en el Upper East Side. Terraza privada con vistas a Central Park. Ideal para grupos y familias grandes.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&q=80",
+      "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "studio-soho-01",
+    "name": "Chic Studio SoHo",
+    "type": "studio",
+    "zone": "SoHo",
+    "guests": "1–2",
+    "beds": 0,
+    "baths": 1,
+    "price": 135,
+    "amenities": ["WiFi", "A/C", "Diseño boutique", "Cocina"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "Studio de diseño en el icónico barrio de SoHo. Rodeado de galerías de arte, tiendas de lujo y los mejores cafés de NYC.",
+    "highlight": "Alta demanda",
+    "photos": [
+      "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "2br-upper-west-01",
+    "name": "Familiar 2BR Upper West Side",
+    "type": "2br",
+    "zone": "Upper West Side",
+    "guests": "4–6",
+    "beds": 2,
+    "baths": 1,
+    "price": 260,
+    "amenities": ["WiFi", "A/C", "Cocina completa", "Lavarropas", "Parque enfrente"],
+    "rules": "No fumar · Mascotas pequeñas OK · Check-in 3pm · Check-out 11am",
+    "description": "Ideal para familias. 2 bedrooms cómodos a media cuadra de Riverside Park y 5 minutos del Metro.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "1br-midtown-02",
+    "name": "1BR Times Square Area",
+    "type": "1br",
+    "zone": "Midtown West",
+    "guests": "2–4",
+    "beds": 1,
+    "baths": 1,
+    "price": 210,
+    "amenities": ["WiFi", "A/C", "Cocina", "TV Smart", "Metro 1 cuadra"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "A pasos de Times Square y Broadway. Edificio moderno con seguridad 24hs. Perfecto para quienes quieren estar en el centro de todo.",
+    "highlight": "Últimas fechas",
+    "photos": [
+      "https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "studio-east-village-01",
+    "name": "Studio East Village",
+    "type": "studio",
+    "zone": "East Village",
+    "guests": "1–2",
+    "beds": 0,
+    "baths": 1,
+    "price": 105,
+    "amenities": ["WiFi", "A/C", "Cocina", "Ambiente bohemio"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "En el corazón del East Village, el barrio más bohemio de Manhattan. Rodeado de restaurantes, bares y cultura local.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1630699144867-37acec97df5a?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "2br-tribeca-01",
+    "name": "Luxe 2BR Tribeca",
+    "type": "2br",
+    "zone": "Tribeca",
+    "guests": "4–6",
+    "beds": 2,
+    "baths": 2,
+    "price": 380,
+    "amenities": ["WiFi", "A/C", "Gym", "Concierge", "Cocina chef", "2 baños completos"],
+    "rules": "No fumar · No mascotas · Check-in 4pm · Check-out 10am",
+    "description": "Lujoso 2 bedrooms en Tribeca, el barrio más exclusivo de Manhattan. Acabados de lujo, cocina de chef y edificio boutique.",
+    "highlight": "Alta demanda",
+    "photos": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "3br-midtown-01",
+    "name": "Gran 3BR Midtown",
+    "type": "3br",
+    "zone": "Midtown",
+    "guests": "6+",
+    "beds": 3,
+    "baths": 2,
+    "price": 390,
+    "amenities": ["WiFi", "A/C", "Sala grande", "Cocina completa", "2 baños", "Lavandería"],
+    "rules": "No fumar · No mascotas · Check-in 4pm · Check-out 10am",
+    "description": "Enorme 3 bedrooms ideal para grupos o familias. En el centro de Manhattan, a minutos de todo. Sala amplia perfecta para reuniones.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
+      "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "1br-gramercy-01",
+    "name": "1BR Gramercy Park",
+    "type": "1br",
+    "zone": "Gramercy",
+    "guests": "2–4",
+    "beds": 1,
+    "baths": 1,
+    "price": 185,
+    "amenities": ["WiFi", "A/C", "Parque privado", "Edificio clásico", "Cocina"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "Encantador 1 bedroom frente a Gramercy Park. Edificio prewar con mucho carácter, en uno de los barrios más tranquilos y seguros de Manhattan.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?w=800&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&q=80",
+      "https://images.unsplash.com/photo-1521783988139-89397d761dce?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "studio-harlem-01",
+    "name": "Studio Cultural Harlem",
+    "type": "studio",
+    "zone": "Harlem",
+    "guests": "1–2",
+    "beds": 0,
+    "baths": 1,
+    "price": 90,
+    "amenities": ["WiFi", "A/C", "Cocina", "Metro directo"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "El más accesible de nuestra cartera. En Harlem, con conexión directa al resto de Manhattan. Ideal para viajeros con presupuesto ajustado que quieren una experiencia auténtica.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1630699144867-37acec97df5a?w=800&q=80",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "2br-gramercy-01",
+    "name": "2BR Gramercy Clásico",
+    "type": "2br",
+    "zone": "Gramercy",
+    "guests": "4–6",
+    "beds": 2,
+    "baths": 1,
+    "price": 245,
+    "amenities": ["WiFi", "A/C", "Edificio histórico", "Cocina", "Sala amplia"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "Espacioso 2 bedrooms en un edificio prewar de Gramercy. Techos altos, pisos de madera y una ubicación tranquila pero céntrica.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "1br-lower-east-01",
+    "name": "1BR Lower East Side",
+    "type": "1br",
+    "zone": "Lower East Side",
+    "guests": "2–4",
+    "beds": 1,
+    "baths": 1,
+    "price": 165,
+    "amenities": ["WiFi", "A/C", "Cocina", "Barrio trendy"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "En el LES, el barrio más trendy de NYC. Rodeado de los mejores bares, restaurantes y venues de música en vivo.",
+    "highlight": "Últimas fechas",
+    "photos": [
+      "https://images.unsplash.com/photo-1521783988139-89397d761dce?w=800&q=80",
+      "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800&q=80",
+      "https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "studio-midtown-02",
+    "name": "Studio Compacto Midtown",
+    "type": "studio",
+    "zone": "Midtown",
+    "guests": "1–2",
+    "beds": 0,
+    "baths": 1,
+    "price": 115,
+    "amenities": ["WiFi", "A/C", "Cocina pequeña", "Edificio moderno"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "Studio bien ubicado en Midtown, a pasos del metro. Ideal para viajes de negocios o turismo corto.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "3br-upper-west-01",
+    "name": "3BR Familiar Upper West",
+    "type": "3br",
+    "zone": "Upper West Side",
+    "guests": "6+",
+    "beds": 3,
+    "baths": 2,
+    "price": 440,
+    "amenities": ["WiFi", "A/C", "3 habitaciones", "2 baños", "Cocina grande", "Central Park 2 cuadras"],
+    "rules": "No fumar · Mascotas pequeñas OK · Check-in 4pm · Check-out 10am",
+    "description": "El departamento ideal para familias grandes. 3 bedrooms cómodos, 2 baños, cocina amplia y a 2 cuadras de Central Park.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&q=80",
+      "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "2br-financial-01",
+    "name": "2BR Financial District Views",
+    "type": "2br",
+    "zone": "Financial District",
+    "guests": "4–6",
+    "beds": 2,
+    "baths": 2,
+    "price": 310,
+    "amenities": ["WiFi", "A/C", "Vistas panorámicas", "Gym", "Concierge", "2 baños"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "2 bedrooms con vistas panorámicas en el FiDi. Torre moderna con todas las comodidades. A pasos del World Trade Center y Brooklyn Bridge.",
+    "highlight": "Alta demanda",
+    "photos": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "1br-chelsea-01",
+    "name": "1BR Chelsea Boutique",
+    "type": "1br",
+    "zone": "Chelsea",
+    "guests": "2–4",
+    "beds": 1,
+    "baths": 1,
+    "price": 180,
+    "amenities": ["WiFi", "A/C", "Diseño boutique", "High Line 2 cuadras", "Cocina"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "1 bedroom con diseño cuidado en Chelsea. A 2 cuadras de la High Line y en el centro del barrio de galerías de arte.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "studio-tribeca-01",
+    "name": "Studio Premium Tribeca",
+    "type": "studio",
+    "zone": "Tribeca",
+    "guests": "1–2",
+    "beds": 0,
+    "baths": 1,
+    "price": 150,
+    "amenities": ["WiFi", "A/C", "Acabados premium", "Cocina", "Concierge"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "Studio premium en el exclusivo Tribeca. Pequeño pero con los mejores acabados. Ideal para viajeros que priorizan ubicación y calidad.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800&q=80",
+      "https://images.unsplash.com/photo-1630699144867-37acec97df5a?w=800&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "2br-midtown-01",
+    "name": "2BR Midtown Clásico",
+    "type": "2br",
+    "zone": "Midtown",
+    "guests": "4–6",
+    "beds": 2,
+    "baths": 1,
+    "price": 270,
+    "amenities": ["WiFi", "A/C", "Cocina completa", "Sala amplia", "Metro 1 cuadra"],
+    "rules": "No fumar · No mascotas · Check-in 3pm · Check-out 11am",
+    "description": "2 bedrooms clásico en Midtown. Amplio y bien distribuido. Perfecto para dos familias o grupos que quieren estar en el centro de Manhattan.",
+    "highlight": "Últimas fechas",
+    "photos": [
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "1br-soho-01",
+    "name": "1BR SoHo Artist Loft",
+    "type": "1br",
+    "zone": "SoHo",
+    "guests": "2–4",
+    "beds": 1,
+    "baths": 1,
+    "price": 230,
+    "amenities": ["WiFi", "A/C", "Techos altos", "Diseño artístico", "Cocina gourmet"],
+    "rules": "No fumar · No mascotas · Check-in 4pm · Check-out 11am",
+    "description": "Loft de artista auténtico en SoHo. Techos de 4 metros, ventanales industriales y diseño único. Una experiencia de alojamiento diferente.",
+    "highlight": "Alta demanda",
+    "photos": [
+      "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&q=80",
+      "https://images.unsplash.com/photo-1521783988139-89397d761dce?w=800&q=80",
+      "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800&q=80"
+    ],
+    "active": true
+  },
+  {
+    "id": "3br-chelsea-01",
+    "name": "3BR Chelsea Grand",
+    "type": "3br",
+    "zone": "Chelsea",
+    "guests": "6+",
+    "beds": 3,
+    "baths": 2,
+    "price": 460,
+    "amenities": ["WiFi", "A/C", "3 habitaciones", "2 baños", "Terraza comunitaria", "Gym", "High Line cercana"],
+    "rules": "No fumar · No mascotas · Check-in 4pm · Check-out 10am",
+    "description": "El más grande de Chelsea. 3 bedrooms con 2 baños, acceso a terraza del edificio con vistas al Hudson. Ideal para grupos grandes o familias numerosas.",
+    "highlight": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&q=80",
+      "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&q=80"
+    ],
+    "active": true
+  }
+]
