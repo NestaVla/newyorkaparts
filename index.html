@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New York Aparts – Departamentos en Manhattan sin comisiones</title>
+<meta name="description" content="Alquiler temporario en Manhattan sin comisiones. Mejor precio que Airbnb. Atención directa por WhatsApp. Studios, 1BR, 2BR, 3BR en las mejores zonas de NYC.">
+<meta name="keywords" content="alquiler temporario Manhattan, departamentos Nueva York, apartamentos Manhattan sin comisiones, alquiler turístico NYC">
+<link rel="canonical" href="https://newyorkaparts.com/">
+<meta property="og:title" content="New York Aparts – Departamentos en Manhattan sin comisiones">
+<meta property="og:description" content="Mejor precio que Airbnb. Atención directa por WhatsApp.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <a class="nav-logo" href="index.html"><span>NY</span> Aparts</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#propiedades">Propiedades</a></li>
+    <li><a href="#beneficios">Beneficios</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contacto" class="nav-cta">Consultar ahora</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">🗽 Sin comisiones · Manhattan · Directo por WhatsApp</div>
+    <h1>Departamentos en Manhattan<em>sin comisiones</em></h1>
+    <p class="hero-sub">Alquiler temporario en Nueva York con mejor precio que Airbnb y atención directa. Ubicaciones verificadas en las mejores zonas de Manhattan.</p>
+    <div class="hero-actions">
+      <a href="https://wa.me/13522600070?text=Hola%2C%20quiero%20consultar%20disponibilidad%20en%20Manhattan" target="_blank" class="btn-primary">💬 Consultar disponibilidad</a>
+      <a href="#propiedades" class="btn-outline">🏙️ Ver los 24 departamentos</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">30%</div><div class="stat-label">Menos que Airbnb</div></div>
+      <div class="stat"><div class="stat-num">24</div><div class="stat-label">Propiedades</div></div>
+      <div class="stat"><div class="stat-num">5★</div><div class="stat-label">Calificación promedio</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SEARCH BAR -->
+<div class="search-section">
+  <div class="search-box">
+    <div class="search-field">
+      <label>Check-in</label>
+      <input type="date" id="checkin">
+    </div>
+    <div class="search-field">
+      <label>Check-out</label>
+      <input type="date" id="checkout">
+    </div>
+    <div class="search-field">
+      <label>Huéspedes</label>
+      <select id="guestSearch">
+        <option value="">Todos</option>
+        <option value="1–2">1–2 personas</option>
+        <option value="2–4">3–4 personas</option>
+        <option value="4–6">5–6 personas</option>
+        <option value="6+">7+ personas</option>
+      </select>
+    </div>
+    <button class="search-btn" onclick="consultarWA()">🔍 Consultar</button>
+  </div>
+</div>
+
+<!-- BENEFITS -->
+<section class="benefits" id="beneficios">
+  <div class="section-header">
+    <div class="section-tag">¿Por qué elegirnos?</div>
+    <h2 class="section-title">La experiencia de Manhattan sin los costos extra</h2>
+    <p class="section-sub">Trato directo, sin intermediarios, sin comisiones</p>
+  </div>
+  <div class="benefits-grid">
+    <div class="benefit-card reveal"><div class="benefit-icon">💸</div><div class="benefit-title">Sin comisiones ocultas</div><p class="benefit-text">Lo que ves es lo que pagás. Sin fees de servicio, sin sorpresas al momento de pagar.</p></div>
+    <div class="benefit-card reveal"><div class="benefit-icon">📱</div><div class="benefit-title">Atención por WhatsApp</div><p class="benefit-text">Hablás directo con nosotros. Respuesta en minutos, siempre en español.</p></div>
+    <div class="benefit-card reveal"><div class="benefit-icon">📍</div><div class="benefit-title">Ubicaciones verificadas</div><p class="benefit-text">24 departamentos auditados personalmente en las mejores zonas de Manhattan.</p></div>
+    <div class="benefit-card reveal"><div class="benefit-icon">🏆</div><div class="benefit-title">Precio garantizado</div><p class="benefit-text">¿Encontrás más barato en otro lado? Te igualamos el precio, sin discusiones.</p></div>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section class="comparison">
+  <div class="section-header">
+    <div class="section-tag">Comparativa</div>
+    <h2 class="section-title" style="color:white">New York Aparts vs Airbnb</h2>
+  </div>
+  <div class="compare-grid reveal">
+    <div class="compare-col ours">
+      <div class="compare-label">✅ New York Aparts</div>
+      <div class="compare-item"><span class="icon-good">✓</span> Sin fee de servicio</div>
+      <div class="compare-item"><span class="icon-good">✓</span> Precio directo</div>
+      <div class="compare-item"><span class="icon-good">✓</span> WhatsApp inmediato</div>
+      <div class="compare-item"><span class="icon-good">✓</span> Sin registro obligatorio</div>
+      <div class="compare-item"><span class="icon-good">✓</span> Descuentos estadías largas</div>
+      <div class="compare-item"><span class="icon-good">✓</span> Propiedades verificadas</div>
+    </div>
+    <div class="compare-middle">VS</div>
+    <div class="compare-col">
+      <div class="compare-label">❌ Airbnb / Booking</div>
+      <div class="compare-item"><span class="icon-bad">✗</span> Fee de servicio 14–20%</div>
+      <div class="compare-item"><span class="icon-bad">✗</span> Precio inflado</div>
+      <div class="compare-item"><span class="icon-bad">✗</span> Soporte lento</div>
+      <div class="compare-item"><span class="icon-bad">✗</span> Registro obligatorio</div>
+      <div class="compare-item"><span class="icon-bad">✗</span> Sin flexibilidad</div>
+      <div class="compare-item"><span class="icon-bad">✗</span> Calidad variable</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROPERTIES -->
+<section class="properties" id="propiedades">
+  <div class="section-header">
+    <div class="section-tag">Propiedades</div>
+    <h2 class="section-title">24 Departamentos en Manhattan</h2>
+    <p class="section-sub">Todas las unidades verificadas · Mejores zonas de NYC</p>
+  </div>
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterProps(this,'all')">Todos</button>
+    <button class="filter-btn" onclick="filterProps(this,'studio')">Studio</button>
+    <button class="filter-btn" onclick="filterProps(this,'1br')">1 Bedroom</button>
+    <button class="filter-btn" onclick="filterProps(this,'2br')">2 Bedrooms</button>
+    <button class="filter-btn" onclick="filterProps(this,'3br')">3–4 Bedrooms</button>
+  </div>
+  <div class="properties-grid" id="propsGrid">
+    <div class="loading-msg">Cargando departamentos...</div>
+  </div>
+</section>
+
+<!-- URGENCY -->
+<div class="urgency-banner">
+  <div class="urgency-inner">
+    <div class="urgency-dots"><div class="dot-red"></div><div class="dot-red" style="animation-delay:.3s"></div><div class="dot-red" style="animation-delay:.6s"></div></div>
+    <h3>¡Alta demanda este mes!</h3>
+    <p>Quedan pocas fechas disponibles para las próximas semanas. Consultá antes de que se agoten.</p>
+    <a href="https://wa.me/13522600070?text=Hola%2C%20vi%20que%20hay%20alta%20demanda.%20Quiero%20consultar%20disponibilidad%20en%20Manhattan." target="_blank" class="btn-primary">💬 Consultar disponibilidad ahora</a>
+  </div>
+</div>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="section-header">
+    <div class="section-tag">Testimonios</div>
+    <h2 class="section-title">Lo que dicen nuestros huéspedes</h2>
+    <p class="section-sub">Familias y viajeros de toda América Latina que eligieron alquilar directo</p>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card reveal"><div class="review-stars">★★★★★</div><p class="review-text">"Increíble relación precio-calidad. Ahorramos más de $400 comparado con Airbnb y la atención fue perfecta. El departamento era exactamente como en las fotos."</p><div class="reviewer"><div class="reviewer-avatar">ML</div><div><div class="reviewer-name">María L. — Buenos Aires</div><div class="reviewer-date">Marzo 2025 · Studio Midtown</div></div></div></div>
+    <div class="review-card reveal"><div class="review-stars">★★★★★</div><p class="review-text">"Nos respondieron al instante por WhatsApp. La zona era perfecta, a pasos del metro y Central Park. 100% lo recomiendo para familias."</p><div class="reviewer"><div class="reviewer-avatar">JR</div><div><div class="reviewer-name">Jorge R. — México DF</div><div class="reviewer-date">Febrero 2025 · 2BR Chelsea</div></div></div></div>
+    <div class="review-card reveal"><div class="review-stars">★★★★★</div><p class="review-text">"La mejor decisión fue contactarlos directamente. Sin comisiones, sin sorpresas. El departamento estaba impecable y el proceso fue muy simple."</p><div class="reviewer"><div class="reviewer-avatar">SC</div><div><div class="reviewer-name">Sofía C. — Bogotá</div><div class="reviewer-date">Enero 2025 · 1BR UWS</div></div></div></div>
+  </div>
+  <div class="instagram-cta">
+    <a href="https://instagram.com/newyorkaparts" target="_blank" class="btn-instagram">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      Ver @newyorkaparts en Instagram
+    </a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contacto">
+  <div class="section-header">
+    <div class="section-tag">Contacto</div>
+    <h2 class="section-title">¿Listo para reservar?</h2>
+    <p class="section-sub">Consultá en segundos, sin compromiso</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <h3>Hablamos por WhatsApp</h3>
+      <p>La forma más rápida de reservar. Te respondemos en minutos con disponibilidad y precios actualizados.</p>
+      <a href="https://wa.me/13522600070?text=Hola%2C%20quiero%20consultar%20disponibilidad%20en%20Manhattan" target="_blank" class="contact-whatsapp">
+        <div class="wa-icon">💬</div>
+        <div class="wa-text"><div class="wa-label">WhatsApp directo</div><div class="wa-number">+1 352 260 0070</div></div>
+      </a>
+      <p style="font-size:.85rem;color:var(--text-muted);font-weight:300;line-height:1.8">
+        📍 Todos nuestros departamentos están en Manhattan<br>
+        🕐 Respondemos de 9am a 10pm (hora NYC)<br>
+        🌎 Hablamos español e inglés<br>
+        📸 <a href="https://instagram.com/newyorkaparts" target="_blank" style="color:var(--gold)">@newyorkaparts</a> en Instagram
+      </p>
+    </div>
+    <div class="contact-form reveal">
+      <form onsubmit="submitForm(event)">
+        <div class="form-row">
+          <div class="form-group"><label>Fecha de llegada</label><input type="date" id="formCheckin" required></div>
+          <div class="form-group"><label>Fecha de salida</label><input type="date" id="formCheckout" required></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Huéspedes</label><select id="formGuests"><option>1–2 personas</option><option>3–4 personas</option><option>5–6 personas</option><option>7+ personas</option></select></div>
+          <div class="form-group"><label>Tipo de depa</label><select id="formType"><option>Studio</option><option>1 Bedroom</option><option>2 Bedrooms</option><option>3+ Bedrooms</option><option>Sin preferencia</option></select></div>
+        </div>
+        <div class="form-group"><label>Tu nombre</label><input type="text" placeholder="¿Cómo te llamás?" required></div>
+        <div class="form-group"><label>WhatsApp o Email</label><input type="text" placeholder="+54 11 ... o correo@email.com" required></div>
+        <div class="form-group"><label>Comentarios</label><textarea placeholder="Ej: necesito cuna, quiero piso alto, viaje de negocios..."></textarea></div>
+        <button type="submit" class="form-submit">💬 Enviar consulta por WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="blog" id="blog">
+  <div class="section-header">
+    <div class="section-tag">Guía de viaje</div>
+    <h2 class="section-title">Todo sobre alojarte en NYC</h2>
+    <p class="section-sub">Consejos, zonas y tips de nuestros expertos en Manhattan</p>
+  </div>
+  <div class="blog-grid">
+    <a href="blog-zonas-manhattan.html" class="blog-card reveal">
+      <div class="blog-img"><img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=600&q=80" alt="Mejores zonas Manhattan" loading="lazy"></div>
+      <div class="blog-content"><div class="blog-tag">Zonas de Manhattan</div><div class="blog-title">Las mejores zonas para alojarse en Manhattan según tu tipo de viaje</div><p class="blog-excerpt">Midtown, UWS, Chelsea, FiDi... Cada barrio tiene su personalidad. Te ayudamos a elegir el ideal.</p></div>
+    </a>
+    <a href="blog-airbnb-vs-directo.html" class="blog-card reveal">
+      <div class="blog-img"><img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&q=80" alt="Airbnb vs alquiler directo" loading="lazy"></div>
+      <div class="blog-content"><div class="blog-tag">Comparativa</div><div class="blog-title">Airbnb vs. alquiler directo en NYC: cuánto podés ahorrar</div><p class="blog-excerpt">Analizamos los costos reales. Los números te van a sorprender.</p></div>
+    </a>
+    <a href="blog-guia-manhattan.html" class="blog-card reveal">
+      <div class="blog-img"><img src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=600&q=80" alt="Guía Manhattan" loading="lazy"></div>
+      <div class="blog-content"><div class="blog-tag">Guía turística</div><div class="blog-title">Dónde alojarse en Manhattan: guía para hispanohablantes</div><p class="blog-excerpt">Todo lo que necesitás saber antes de llegar a Nueva York por primera vez.</p></div>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo"><span>NY</span> Aparts</div>
+      <p class="footer-desc">Conectamos viajeros con los mejores departamentos de Manhattan. Sin comisiones, sin intermediarios. Atención directa en español.</p>
+    </div>
+    <div>
+      <div class="footer-heading">Propiedades</div>
+      <ul class="footer-links">
+        <li><a href="#propiedades">Studios en Manhattan</a></li>
+        <li><a href="#propiedades">1 Bedroom NYC</a></li>
+        <li><a href="#propiedades">2 Bedrooms NYC</a></li>
+        <li><a href="#propiedades">3+ Bedrooms NYC</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Zonas</div>
+      <ul class="footer-links">
+        <li><a href="#propiedades">Midtown</a></li>
+        <li><a href="#propiedades">Upper West Side</a></li>
+        <li><a href="#propiedades">Chelsea</a></li>
+        <li><a href="#propiedades">Financial District</a></li>
+        <li><a href="#propiedades">SoHo / Tribeca</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Contacto</div>
+      <ul class="footer-links">
+        <li><a href="https://wa.me/13522600070" target="_blank">📱 +1 352 260 0070</a></li>
+        <li><a href="https://instagram.com/newyorkaparts" target="_blank">📸 @newyorkaparts</a></li>
+        <li><a href="#blog">📝 Blog NYC</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 New York Aparts. Todos los derechos reservados.</span>
+    <span>Alquiler temporario en Manhattan · Sin comisiones</span>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<div class="wa-float">
+  <div class="wa-tooltip">💬 Chateá con nosotros</div>
+  <a href="https://wa.me/13522600070?text=Hola%2C%20quiero%20consultar%20disponibilidad%20en%20Manhattan" target="_blank" class="wa-float-btn" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+
+<!-- CHAT BUBBLE -->
+<div class="chat-bubble" id="chatBubble">
+  <button class="chat-close" onclick="document.getElementById('chatBubble').style.display='none'">✕</button>
+  👋 ¡Hola! ¿Buscás depa en Manhattan?<br>
+  <a href="https://wa.me/13522600070?text=Hola%2C%20quiero%20consultar%20disponibilidad" target="_blank" style="color:#25D366;font-weight:600;text-decoration:none">Consultá gratis →</a>
+</div>
+
+<!-- PROPERTY MODAL -->
+<div id="modal" class="modal-overlay" onclick="closeModal(event)">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModalBtn()">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
